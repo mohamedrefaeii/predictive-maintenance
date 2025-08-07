@@ -195,9 +195,7 @@ def show_about_page():
     - **TensorFlow**: Deep learning framework
     - **Streamlit**: Web application framework
     
-    ### Contact:
-    For questions or support, please contact the development team.
-    """)
+
 
 if __name__ == "__main__":
     main()
