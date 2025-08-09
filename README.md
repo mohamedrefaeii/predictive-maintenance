@@ -1,26 +1,26 @@
-# 📌 Predictive Maintenance System using Time-Series Analysis
+#  Predictive Maintenance System using Time-Series Analysis
 
-## 🔍 Overview
+##  Overview
 
 This project implements a **predictive maintenance system** for industrial equipment using **time-series sensor data**. The system predicts equipment failures or estimates Remaining Useful Life (RUL), helping reduce downtime and optimize maintenance schedules.
 
 It integrates **machine learning**, **deep learning**, and **interactive dashboards** to deliver real-time insights. Suitable for industries like **manufacturing**, **energy**, and **transportation**.
 
-> 🚀 This project showcases strong skills in time-series analysis, supervised learning, feature engineering, model evaluation, and data visualization — making it a solid addition to any AI/Data Science portfolio.
+>  This project showcases strong skills in time-series analysis, supervised learning, feature engineering, model evaluation, and data visualization — making it a solid addition to any AI/Data Science portfolio.
 
-## 🧠 Key Features
+##  Key Features
 
 - Time-series preprocessing & feature engineering  
 - Failure classification or RUL prediction using:
-  - 🏡 Tree-based models (XGBoost / Random Forest)
-  - 🧠 LSTM deep learning model
+  -  Tree-based models (XGBoost / Random Forest)
+  -  LSTM deep learning model
 - Performance evaluation using metrics like RMSE, Accuracy, AUC
 - Visualizations (sensor trends, feature importance, confusion matrix)
 - Interactive Streamlit app for real-time predictions
 - Modular, reusable Python codebase
 - Cloud-deployed web app for public interaction
 
-## 🗂️ Repository Structure
+##  Repository Structure
 
 ```
 predictive-maintenance/
@@ -40,17 +40,8 @@ predictive-maintenance/
 └── README.md                 # Project documentation (this file)
 ```
 
-## 📊 Dashboard
 
-The project includes a deployed [Streamlit app](https://your-deployed-app-link) where users can:
-
-- Upload new sensor data (`CSV`)
-- View predicted failure probability or RUL
-- Interact with live plots and feature insights
-
-## 🧪 Example Usage
-
-### 🔧 Install Dependencies
+###  Install Dependencies
 
 ```bash
 git clone https://github.com/mohamedrefaeii/predictive-maintenance.git
@@ -58,7 +49,7 @@ cd predictive-maintenance
 pip install -r requirements.txt
 ```
 
-### ▶️ Run the App Locally
+###  Run the App Locally
 
 ```bash
 streamlit run src/dashboard.py
@@ -66,7 +57,6 @@ streamlit run src/dashboard.py
 
 ### 📤 Upload CSV
 
-Upload a file like this:
 
 ```csv
 timestamp,temperature,pressure,vibration,...
@@ -77,7 +67,7 @@ timestamp,temperature,pressure,vibration,...
 
 > Sample available in `data/engine_data.csv`
 
-## 🧠 Models Used
+##  Models Used
 
 | Model Type      | Algorithm         | Task                      |
 |----------------|-------------------|---------------------------|
@@ -86,12 +76,12 @@ timestamp,temperature,pressure,vibration,...
 
 Models are evaluated using:
 
-- 📈 Classification: Accuracy, Precision, Recall, F1, ROC-AUC
-- 📉 Regression: MAE, RMSE, R²
+-  Classification: Accuracy, Precision, Recall, F1, ROC-AUC
+-  Regression: MAE, RMSE, R²
 
 Hyperparameter tuning done via `GridSearchCV` and `Optuna`.
 
-## 📈 Visualizations
+##  Visualizations
 
 All plots are saved in the `plots/` folder:
 
@@ -101,20 +91,16 @@ All plots are saved in the `plots/` folder:
 - Loss Curves  
 - Feature Importance  
 
-## ☁️ Deployment
+##  Deployment
 
-### 🟢 Cloud (Streamlit)
 
-App is deployed at:  
-👉 [Streamlit App Link](https://your-deployed-app-link)
-
-### 💻 Local
+###  Local
 
 ```bash
 streamlit run src/dashboard.py
 ```
 
-## 📦 Tools & Libraries
+##  Tools & Libraries
 
 | Task                  | Library                         |
 |-----------------------|----------------------------------|
@@ -125,13 +111,13 @@ streamlit run src/dashboard.py
 | Web App               | streamlit                       |
 | Hyperparameter Tuning | optuna, GridSearchCV            |
 
-## 🛠 Recommended Setup
+##  Recommended Setup
 
 - Python 3.8+
 - Works on standard laptops
 - For LSTM training: use **Google Colab** with GPU
 
-## 🔒 .gitignore Highlights
+##  .gitignore Highlights
 
 ```bash
 __pycache__/
@@ -142,25 +128,22 @@ __pycache__/
 data/*.csv
 ```
 
-## 🌍 Industrial Relevance
+##  Industrial Relevance
 
 Predictive Maintenance is a real-world application critical to sectors like:
 
-- 🏭 Manufacturing (e.g., machines in Egyptian factories)
-- ⚡ Energy (e.g., turbine failure prediction)
-- 🚛 Transportation (e.g., engine monitoring)
+-  Manufacturing (e.g., machines in Egyptian factories)
+-  Energy (e.g., turbine failure prediction)
+-  Transportation (e.g., engine monitoring)
 
-## ✅ Success Criteria
+##  Success Criteria
 
-- ✔️ >85% classification accuracy or <10% RMSE
-- ✔️ Fully functional Streamlit app with real-time feedback
-- ✔️ Clear notebook with reproducible pipeline
-- ✔️ Cloud deployment with working predictions
-- ✔️ Ready for job interviews and GitHub showcasing
+-  >85% classification accuracy or <10% RMSE
+-  Fully functional Streamlit app with real-time feedback
+-  Clear notebook with reproducible pipeline
+-  Cloud deployment with working predictions
+-  Ready for job interviews and GitHub showcasing
 
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ## 👨‍💻 Author
 
